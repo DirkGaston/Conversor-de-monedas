@@ -1,0 +1,25 @@
+body {
+  background-color: #212529;
+}
+
+hr {
+  border: 1px solid #1d3e47;
+  width: 100%;
+}
+
+input {
+  width: 400px;
+}
+
+.container {
+  height: 75vh;
+}
+
+.card {
+  width: 50%;
+  background-color: #6c757d;
+}
+
+.card-body {
+  width: 75%;
+}
