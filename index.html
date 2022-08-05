@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Conversor de Monedas" />
+    <meta
+      name="description"
+      content="Aplicación online para realizar conversión de pesos chilenos a monedas extranjeras"
+    />
+    <meta name="author" content="Dirk Gastón" } />
     <title>Conversor de Monedas</title>
     <link
       rel="stylesheet"
@@ -15,7 +21,7 @@
   </head>
   <body>
     <div
-      class="container d-flex flex-column text-white justify-content-center align-items-center"
+      class="container d-flex flex-column text-white align-items-center mt-3"
     >
       <hr />
       <h1>Conversor de monedas Nacional</h1>
@@ -30,16 +36,17 @@
             placeholder="Ingrese el monto en CLP"
             aria-label="default input example"
           />
-          <label for="formSelect">Moneda a convertir:</label>
+          <label for="formSelect" class="text-center pt-3"
+            >Moneda a convertir:</label
+          >
           <select
-            class="form-select"
-            id="formSelect"
-            aria-label="Default select example"
+            class="custom-select custom-select-lg mb-3"
+            aria-label=".form-select-lg example"
           >
             <option selected>Seleccione moneda</option>
-            <option value="1">EUR</option>
-            <option value="2">USD</option>
           </select>
+          <button type="button" class="btn btn-primary">Buscar</button>
+          <h4 class="result mt-3 text-center">...</h4>
         </div>
       </div>
     </div>
