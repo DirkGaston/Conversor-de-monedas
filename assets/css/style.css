@@ -29,6 +29,15 @@ label {
   height: 75vh;
 }
 
+.serverState {
+  width: 50%;
+  background-color: transparent;
+  border: 2px solid #dc3545;
+  color: #dc3545;
+  padding: 10px;
+  text-align: center;
+}
+
 .card {
   width: 50%;
   background-color: #6c757d;
@@ -36,4 +45,17 @@ label {
 
 .card-body {
   width: 75%;
+}
+
+.queryDate {
+  width: 50%;
+  background-color: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+  padding: 10px;
+  text-align: center;
+}
+
+.chartContainer {
+  width: 100%;
 }

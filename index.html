@@ -27,6 +27,8 @@
       <h1>Conversor de monedas Nacional</h1>
       <hr />
 
+      <p class="serverState">Estado del Servidor</p>
+
       <div class="card d-flex justify-content-center align-items-center">
         <div class="card-body">
           <h2 class="card-title text-center">Pesos CLP</h2>
@@ -49,9 +51,14 @@
           <h4 class="result mt-3 text-center">...</h4>
         </div>
       </div>
+      <p class="queryDate mt-3">Fecha:</p>
+      <div class="chartContainer">
+        <canvas id="myChart" height="250" width="950"></canvas>
+      </div>
     </div>
 
     <script src="/assets/js/script.js"></script>
+
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -67,5 +74,6 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </body>
 </html>
