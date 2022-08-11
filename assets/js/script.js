@@ -167,7 +167,7 @@ const renderChart = (arrLabel, arrValue) => {
 };
 
 const validate = () => {
-  if (localCurrency.value === "" && type === "click") {
+  if (localCurrency.value === "") {
     alert("Ingresa una cantidad de CLP a convertir!");
     return;
   }
